@@ -1,0 +1,118 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.hero-container{
+    flex: 1;
+    max-width: 650px;
+    font-family: "Coiny", sans-serif;
+}
+
+
+.hero-container h1{
+    color: #292D33;
+    font-family: "Coiny", sans-serif;
+    margin-bottom: 5px;
+}
+
+#title{
+    color: #292D33;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Coiny";
+    margin-top: 0;
+    margin-bottom: 20px;;
+}
+
+.highlight-name{
+    color: #006CFF;
+    text-align: center;
+    font-family: "Coiny";
+}
+
+#description{
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/*Changes the background of the page */
+body {
+    background-color: #f1f3f6; /* Soft light gray */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.navbar-brand{
+    color: #f1f3f6;
+    font-family: "Coiny";
+}
+
+.nav-item{
+    color: #f1f3f6;
+    font-family: "Coiny";
+}
+
+.button-group{
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px; /* Smooth rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Adds a clean hover effect transition */
+}
+
+.btn-solid {
+    background-color: #296DCC;
+    color: white;
+    border: none;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #296DCC;
+    border: 2px solid #296DCC; /* Thin crisp purple border */
+}
+
+#my-image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #296DCC;
+}
+
+.card-img-custom {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner{
+    width: 100%;
+    max-width: 1100px;
+    height: 380px;
+    margin: 30px auto;
+    border-radius: 16px;
+    border: 3px solid #296DCC;
+    overflow: hidden;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}

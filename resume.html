@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta property="og:title" content="Mohamed Osama portfolio">
+        <meta property="og:image" content="Robotics.jpg">
+
+        <title>Mohamed Osama's portfolio</title>
+    </head>
+
+    <body>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!--Page name-->
+            <a class="navbar-brand" href="index.html">Osama's protfolio</a>
+
+            <!--Navbar button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Links of navbar elements-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link " href="index.html">Main</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <!--progress bar-->
+        <div class="container mt-5">
+            <h3 class="mb-4" style="font-family: 'Coiny'; color: #292D33;">Technical Skills</h3>
+
+            <!-- Programming-->
+            <div class="mb-3">
+                <label class="form-label fw-bold">C Algorithms</label> <!--Label-->
+                <div class="progress" style="height: 22px; border-radius: 8px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 45%; background-color: #296DCC;">45%</div>
+                </div>
+            </div>
+
+            <!--Emmbedded Systems-->
+            <div class="mb-3">
+                <label class="form-label fw-bold">Embedded Systems & MATLAB</label> <!--Label-->
+                <div class="progress" style="height: 22px; border-radius: 8px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%; background-color: #296DCC;">25%</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Cards container-->
+        <div class="container mt-5">
+
+            <h3 class="mb-4" style="font-family: 'Coiny'; color: #292D33;">Courses</h3>
+
+            <!--custmize num of row based on size of the screen-->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+
+                    <!--Cs50 card-->
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="this-is-cs50.jpeg" class="card-img-top card-img-custom" alt="cs50">
+                        <div class="card-body">
+                            <h5 class="card-title">CS50</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="Link of the soft copy certificate" class="btn btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <!--Embedded Systems card-->
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="embedded-systems.jpeg" class="card-img-top card-img-custom" alt="embedded systems">
+                        <div class="card-body">
+                            <h5 class="card-title">AMIT Embedded Systems</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="Link of the soft copy certificate" class="btn btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <!--Mechanical Knowledge card-->
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="solid-works.jpeg" class="card-img-top card-img-custom" alt="Solid Works">
+                        <div class="card-body">
+                            <h5 class="card-title">Solid Works</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
