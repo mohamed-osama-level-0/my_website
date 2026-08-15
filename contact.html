@@ -71,32 +71,49 @@
 
             <h3 class="mt-4" style="font-family: 'Coiny'; color: #292D33;">Send Email</h3>
 
+            <!--
+                This form submits directly to your inbox via FormSubmit.co — a free
+                service that needs no backend or API key. The first time someone
+                submits it, FormSubmit will send *you* a one-click confirmation
+                email to activate delivery to mohamed.osama.m0.070@gmail.com.
+                After that, every submission lands straight in your inbox.
+            -->
+            <form action="https://formsubmit.co/mohamed.osama.m0.070@gmail.com" method="POST">
+
+                <!-- FormSubmit configuration -->
+                <input type="hidden" name="_subject" value="New message from your portfolio site">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="true">
+                <!-- Honeypot field to cut down on spam bots -->
+                <input type="text" name="_honey" style="display:none">
+
                 <div class="my-3">
-                    <label for="message" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
                 </div>
                 <div class="my-3">
                     <label for="message" class="form-label">Text</label>
-                    <textarea class="form-control" id="message" rows="3" maxlength="250"></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="3" maxlength="250" required></textarea>
                     <div id="char-count">0</div>
                 </div>
                 <button class="btn btn-solid" type="submit">Send</button>
+            </form>
         </div>
 
         <div class="container mt-5">
 
-            <div class="row row-cols-1 row-cols-md-3 g-1">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
 
                 <div class="col">
-                    <a href="https://www.facebook.com/mody.osama.1238" class="btn btn-solid">Facebook</a>
+                    <a href="https://www.facebook.com/mody.osama.1238" class="btn btn-solid w-100">Facebook</a>
                 </div>
 
                 <div class="col">
-                    <a href="https://www.linkedin.com/in/mohamed-osama-5125a8413/" class="btn btn-solid">Linked In</a>
+                    <a href="https://www.linkedin.com/in/mohamed-osama-5125a8413/" class="btn btn-solid w-100">Linked In</a>
                 </div>
 
                 <div class="col">
-                    <a href="https://wa.me/201063779708" class="btn btn-solid">What's Up</a>
+                    <a href="https://wa.me/201063779708" class="btn btn-solid w-100">What's Up</a>
                 </div>
 
             </div>
