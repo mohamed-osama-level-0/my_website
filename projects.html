@@ -49,32 +49,60 @@
             </div>
             </nav>
 
-            <section class="hero-section">
-                    <div class="card" style="width: 18rem;">
-                        <img src="project.jpeg" class="card-img-top" alt="project image">
-                        <div class="card-body">
-                            <h5 class="card-title">project 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="container mt-5 mb-5">
+                <h3 class="mb-4" style="font-family: 'Coiny'; color: #292D33;">Projects</h3>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="project.jpeg" class="card-img-top" alt="PID Motor Controller Simulator">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">PID Motor Controller Simulator</h5>
+                                <p class="card-text">A from-scratch C simulator for a PID-controlled DC motor, built as my CS50x final project. Includes MANUAL/AUTOMATIC mode switching with bumpless transfer, DIRECT/REVERSE control, derivative-on-measurement, and a hardware-portable type layer ready for a real microcontroller.</p>
+                                <div class="project-tags mb-3">
+                                    <span class="badge">C</span>
+                                    <span class="badge">Control Systems</span>
+                                    <span class="badge">Embedded-Ready</span>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-auto">View on GitHub</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="project.jpeg" class="card-img-top" alt="project image">
-                        <div class="card-body">
-                            <h5 class="card-title">project 2</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="project.jpeg" class="card-img-top" alt="DXF Flange Reconstruction">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">DXF Engineering Drawing Reconstruction</h5>
+                                <p class="card-text">A Python tool built with ezdxf that reconstructs 2D mechanical engineering drawings — specifically dog-bone flange profiles — as precise DXF files, complete with layered annotations, hatching, and full dimensioning.</p>
+                                <div class="project-tags mb-3">
+                                    <span class="badge">Python</span>
+                                    <span class="badge">ezdxf</span>
+                                    <span class="badge">CAD</span>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-auto">View on GitHub</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="project.jpeg" class="card-img-top" alt="project image">
-                        <div class="card-body">
-                            <h5 class="card-title">project 3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="project.jpeg" class="card-img-top" alt="Upcoming project">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">More on the way</h5>
+                                <p class="card-text">Currently exploring interrupt-driven embedded control — timer ISRs, encoder interrupts, and UART logging — as the next step toward moving the motor controller simulator onto real hardware.</p>
+                                <div class="project-tags mb-3">
+                                    <span class="badge">Mechatronics</span>
+                                    <span class="badge">In progress</span>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-auto">Coming soon</a>
+                            </div>
                         </div>
                     </div>
-            </section>
 
-
-
+                </div>
+            </div>
 
     </body>
 </html>
